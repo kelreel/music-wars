@@ -1,0 +1,45 @@
+.main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.rangesContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 40px 20px;
+}
+
+.range {
+  display: flex;
+  margin: 1em 4em;
+  width: 200px;
+}
+
+.nextBtn {
+  margin-top: 40px;
+
+  border-radius: 16px;
+  border: 1px solid black;
+
+  background:transparent;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 15px 25px;
+  text-align: center;
+
+  transition: all 0.5s;
+
+  &:hover {
+    background-color: #e5e5e5;
+  }
+}

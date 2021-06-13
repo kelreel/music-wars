@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+
+  > h2 {
+    margin-bottom: 50px;
+  }
+}

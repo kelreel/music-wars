@@ -2,6 +2,8 @@
   border-radius: 16px;
   transition: all 0.12s ease-in-out 0s;
   padding: 24px;
+
+  background-color: #fff;
   border: 1px solid rgba(4, 4, 5, 0.1);
 
   display: flex;
@@ -31,6 +33,7 @@
   transition: all 0.2s;
   cursor: pointer;
   padding: 10px;
+  user-select: none;
 
   border: 1px solid #b8b8b8;
   border-radius: 6px;
@@ -38,7 +41,7 @@
   &:hover {
     transform: scale(1.05);
     text-shadow: 1px 1px 5px #ccc;
-    background-color: #e6ffd7;
+    background-color: #a18cd1;
     font-weight: 600;
   }
 }
