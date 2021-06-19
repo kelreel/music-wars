@@ -5,6 +5,7 @@ export enum SnippetType {
 }
 
 export interface Snippet {
+    sample: number;
     type: SnippetType,
     source: string
 }
