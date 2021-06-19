@@ -2,53 +2,53 @@ import {IntroQuestion} from "../../types/intro";
 
 export const introQuestionsData: IntroQuestion[] = [
     {
-        title: '1. Lorem ipsum dolor sit amet',
+        title: '1. Выберите название ступени для Доминанты',
         options: [
             {
-                title: 'Option 1',
+                title: '1',
                 score: 0
             },
             {
-                title: 'Option 2 (correct)',
+                title: '4',
+                score: 0
+            },
+            {
+                title: '5',
                 score: 1
-            },
-            {
-                title: 'Option 3',
-                score: 0
             }
         ]
     },
     {
-        title: '2. Lorem ipsum dolor sit amet',
+        title: '2. Терция это',
         options: [
             {
-                title: 'Option 1 (correct)',
+                title: 'Интервал для 3-го тонического септаккорда',
+                score: 0
+            },
+            {
+                title: 'Интервал между любыми тремя ступенями гаммы',
+                score: 0
+            },
+            {
+                title: 'Интервал между первой и третьей ступенью гаммы',
                 score: 1
-            },
-            {
-                title: 'Option 2',
-                score: 0
-            },
-            {
-                title: 'Option 3',
-                score: 0
             }
         ]
     },
     {
-        title: '3. Lorem ipsum dolor sit amet',
+        title: '3. Диез это',
         options: [
             {
-                title: 'Option 1',
-                score: 0
-            },
-            {
-                title: 'Option 2',
-                score: 0
-            },
-            {
-                title: 'Option 3 (correct)',
+                title: 'Нотный знак, требующий повышения звука на полутон.',
                 score: 1
+            },
+            {
+                title: 'Нотный знак, требующий понижения звука на полутон.',
+                score: 0
+            },
+            {
+                title: 'Нотный знак, требующий понижения звука на тон.',
+                score: 0
             }
         ]
     }

@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
 import {Intro} from "../components/Intro/Intro";
 import {profileState$} from "../models/profile";
 import { useStore } from 'effector-react';
@@ -15,7 +15,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            {level ? <Main /> : <Intro/>}
+            {level !== null ? <Main /> : <Intro/>}
         </div>
-    )
+    );
 }

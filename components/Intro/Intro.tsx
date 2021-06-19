@@ -13,11 +13,10 @@ export const Intro = () => {
     const [step, setStep] = useState(0);
 
     const onAnswer = (variant: any) => {
-        upScore(variant.score);
-
         if (step === introQuestionsData.length - 1) {
-            levelChanged(score);
+            levelChanged(score + variant.score);
         } else {
+            upScore(variant.score);
             setStep(step + 1);
         }
     };
